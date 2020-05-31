@@ -1,0 +1,23 @@
+.transactionHistory {
+  width: 870px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.firstRow {
+  background-color: rgb(0, 188, 212);
+  height: 50px;
+  font-size: 13px;
+  font-family: 'Lato', sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.row {
+  height: 50px;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  color: rgb(92, 105, 117);
+  text-transform: capitalize;
+}
