@@ -11,29 +11,20 @@ import FriendList from '../FriendList/FriendList';
 import TransactionHistory from '../TransactionHistory/TransactionHistory';
 
 import './App.module.css';
-import '../../fonts/fonts.css';
 
 export default function App() {
   return (
     <>
-      <section>
-        <Profile
-          name={user.name}
-          tag={user.tag}
-          location={user.location}
-          avatar={user.avatar}
-          stats={user.stats}
-        />
-      </section>
-      <section>
-        <Statistics title="UPLOAD STATS" stats={statisticalData} />
-      </section>
-      <section>
-        <FriendList friends={friends} />
-      </section>
-      <section>
-        <TransactionHistory items={transactions} />
-      </section>
+      <Profile
+        name={user.name}
+        tag={user.tag}
+        location={user.location}
+        avatar={user.avatar}
+        stats={user.stats}
+      />
+      <Statistics title="UPLOAD STATS" stats={statisticalData} />
+      <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </>
   );
 }
